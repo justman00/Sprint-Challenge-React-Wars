@@ -1,0 +1,100 @@
+.person-starwars {
+  /* max-width: 400px; */
+  /* min-height: 300px; */
+  /* width: 100%; */
+  /* background-color: #fff; */
+  display: flex;
+  flex-direction: column;
+  margin: 10% 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-person {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2%;
+}
+
+.header-person h2 {
+  font-size: 3.5rem;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 5px;
+  letter-spacing: 1rem;
+}
+
+.header-person .additional-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-person .additional-info .birth-year,
+.gender {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.details-person {
+  width: 100%;
+  /* padding: 0 5%; */
+  padding-top: 2%;
+  border-top: 2px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+
+.details-person.padding-10 {
+  padding: 2% 10% 0;
+}
+
+.details-person .specific-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-person .specific-detail:hover {
+  transform: scale(1.3);
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  transition: all 0.5s;
+}
+
+.details-person .specific-detail h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.details-person .specific-detail p {
+  font-size: 1.4rem;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 8% auto 0;
+}
+
+.btns .custom-btn {
+  width: 40%;
+  padding: 5% 8%;
+  font-size: 2rem;
+  background: transparent;
+  color: #fff;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btns .custom-btn:hover {
+  transform: scale(1.2);
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.btns .custom-btn.display-none {
+  display: none;
+}
